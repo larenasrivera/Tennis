@@ -142,12 +142,16 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="all_tests.hpp" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="tennis2.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="all_tests.cpp" />
     <ClCompile Include="stdafx.cpp" />
-    <ClCompile Include="Tennis.cpp" />
+    <ClCompile Include="tennis2.cc" />
+    <ClCompile Include="test_suite.tests.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
